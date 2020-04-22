@@ -59,11 +59,11 @@ h1::after
 	right:-70px;
 }
 
-#VENTAS
-{
-    color:white;
-    background:#15aabf;
-	width:400px;
-	margin:6px auto;
-	border:2px solid black;
+#VENTAS {
+    color: white;
+    background: #15aabf;
+    width: 400px;
+    margin: 6px auto;
+    border: 2px solid black;
+   
 }
