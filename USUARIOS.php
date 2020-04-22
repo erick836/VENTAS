@@ -17,7 +17,7 @@
 
   if($estado)
   {
-    echo ""
+    header("location:VENTAS.html");
   }
   else 
   {
