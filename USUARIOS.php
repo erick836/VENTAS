@@ -12,7 +12,7 @@
     if($usuario[$x]==$nombre && $pass[$x]==$contraseña)
 	{
 	  $estado=true;
-	}
+	} 
   }
 
   if($estado)
