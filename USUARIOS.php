@@ -2,14 +2,16 @@
   $usuario=array("Amilcar","Carlos","Erick","Jhon","Cesar");
   $pass=array(012,345,678,91011,121314);
 
-  $nombre=$_POST['nombre'];
-  $contraseña=$_POST['contraseña'];
+  $estado=false;
 
-  $pros=count($usuario);
+  $NOMBRE=$_POST['NOMBRE'];
+  $CONTRASEÑA=$_POST['CONTRASEÑA'];
 
-  for($x=0;$x<$pros;$x++)
+  $tam=count($usuario);
+
+  for($x=0; $x<$tam; $x++)
   {
-    if($usuario[$x]==$nombre && $pass[$x]==$contraseña)
+    if($usuario[$x]==$NOMBRE && $pass[$x]==$CONTRASEÑA)
 	{
 	  $estado=true;
 	} 
@@ -17,7 +19,7 @@
 
   if($estado)
   {
-    header("location:VENTAS.html");
+    header("location:ventas.html");
   }
   else 
   {
