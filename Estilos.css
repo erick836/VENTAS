@@ -7,9 +7,7 @@ body
 {
 	background:#a9e34b;
 	font-family: Bahnschrift, Comic Sans MS, "Arial";
-	border:2px solid black;
-	margin:6px auto;
-	width:550px;
+	
 }
 #ENCABEZADO
 {
@@ -17,8 +15,7 @@ body
     color:white;
 	font-size:40px;
 	width:400px;
-	margin:6px auto;
-	
+	margin:6px auto;	
 }
 #CONTENIDO
 {
@@ -59,11 +56,9 @@ h1::after
 	right:-70px;
 }
 
-#VENTAS {
-    color: white;
-    background: #15aabf;
-    width: 400px;
-    margin: 6px auto;
-    border: 2px solid black;
-   
+#VENTAS
+{
+    color:white;
+	width:400px;
+	margin:6px auto;
 }
